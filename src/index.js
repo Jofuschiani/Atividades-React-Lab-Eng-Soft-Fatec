@@ -9,9 +9,9 @@ import Relogio from './semana01/Relogio';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Letreiro />
+    {/* <App /> */}
     <Relogio />
+    <Letreiro />
   </React.StrictMode>
 );
 
