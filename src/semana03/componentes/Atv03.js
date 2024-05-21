@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 export default function Atv03() {
     return (
         <>
-            <Link to="/">Retornar a página inicial</Link>
+            <Link to="/">Retornar a página inicial.</Link>
             <div style={{
                 border: "black 1px solid",
                 padding: "10px",
