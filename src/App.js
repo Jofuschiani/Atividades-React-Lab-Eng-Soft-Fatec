@@ -5,6 +5,8 @@ import Semana01 from "./semana01/Atv01";
 import Semana02 from "./semana02/Atv02";
 import Semana03 from "./semana03/componentes/Atv03";
 import Semana04 from "./semana04/componentes/Atv04";
+import Semana05 from "./semana05/componentes/Atv05";
+
 function App() {
   return (
       <BrowserRouter>
@@ -14,6 +16,7 @@ function App() {
           <Route path="/semana02" element={<Semana02/>} />
           <Route path="/semana03" element={<Semana03/>} />
           <Route path="/semana04" element={<Semana04/>} />
+          <Route path="/semana05" element={<Semana05/>} />
       </Routes>
       </BrowserRouter>
 
